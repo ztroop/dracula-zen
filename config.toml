@@ -1,0 +1,12 @@
+base_url = "https://github.com/ztroop/dracula-zen/"
+title = "Blog name"
+description = "Personal blog"
+compile_sass = true
+highlight_code = true
+highlight_theme = "dracula"
+build_search_index = false
+
+[extra]
+author = "Barlog M."
+github = "barlog-m"
+twitter = "barlog_m"

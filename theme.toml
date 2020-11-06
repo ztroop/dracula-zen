@@ -1,0 +1,11 @@
+name = "Dracula Zen"
+description = "Minimalistic blog theme"
+license = "MIT"
+homepage = "https://github.com/ztroop/dracula-zen"
+min_version = "0.12.0"
+
+[extra]
+
+[author]
+name = "Zackary Troop"
+homepage = "https://ztroop.github.io"
