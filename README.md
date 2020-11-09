@@ -39,6 +39,4 @@ Font [FiraCode](https://github.com/tonsky/FiraCode)
 
 ## Screenshots
 
-![Index View](./assets/index-view.png)
-
-![Post View](./assets/post-view.png)
+![Index View](./assets/dracula-zen.gif)

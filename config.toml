@@ -7,6 +7,6 @@ highlight_theme = "dracula"
 build_search_index = false
 
 [extra]
-author = "Barlog M."
-github = "barlog-m"
-twitter = "barlog_m"
+author = "author"
+github = "github"
+twitter = "twitter"

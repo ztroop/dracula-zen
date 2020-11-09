@@ -14,8 +14,8 @@ $padding: 8px;
 
 body {
     font: 100% $font;
-    background: $black;
-    color: $white;
+    background: $background;
+    color: $foreground;
 }
 
 body {
@@ -51,9 +51,8 @@ b, strong {
 }
 
 footer {
-    color: $gray_light;
+    color: $comment;
     padding: 0 $padding $padding $padding;
-
     grid-area: footer;
 }
 
@@ -71,10 +70,15 @@ nav {
     display: inline;
 }
 
+nav a {
+    padding-left: .5em;
+}
+
 ul {
     list-style: none inside none;
-    list-style-type: "·";
+    list-style-type: disc;
     padding: 0;
+    padding-left: 1em;
 }
 
 li::marker {
@@ -92,20 +96,20 @@ a {
 }
 
 h1 {
-    color: $magenta;
+    color: $purple;
     font-size: 24px;
     margin: 5px 0;
     font-weight: bold;
 }
 
 h2 {
-    color: $magenta;
+    color: $purple;
     font-size: 22px;
     font-weight: bold;
 }
 
 h3 {
-    color: $magenta;
+    color: $purple;
     font-size: 20px;
     font-weight: bold;
 }
@@ -135,6 +139,10 @@ code {
     font: 16px $font-mono;
 }
 
+code span {
+    text-decoration: none !important;
+}
+
 p > code {
     font-weight: bold;
     color: $green;
@@ -146,12 +154,12 @@ p > code {
 }
 
 .date {
-    color: $gray_light;
+    color: $comment;
     font-size: 14px;
 }
 
 .border {
-    color: $gray_dark;
+    color: $comment;
     margin: 8px 0 8px 0;
     border-top: 2px dashed;
 }
@@ -161,7 +169,7 @@ p > code {
 }
 
 .icon {
-    color: $gray_light;
+    color: $comment;
     display: inline-block;
     vertical-align: middle;
     width: 16px;
