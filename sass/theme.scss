@@ -81,8 +81,13 @@ ul {
     padding-left: 1em;
 }
 
-li::marker {
-    color: $green;
+li code {
+    color: $green !important;
+    font-weight: bold;
+}
+
+ul {
+    list-style-position: outside;
 }
 
 ul ul {
